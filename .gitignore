@@ -1,0 +1,5 @@
+!.vscode/*
+/build/*
+!/build/conductor_10.uf2
+build_*/
+docs/
