@@ -19,12 +19,12 @@ FINAL FANTASY XIVの楽器演奏の設定で、MIDIキーボードを押して�
 ## 補足
 Picossi USBホストが入手できない場合、Raspberry Pi Pico でも動作します。
 USB A コネクタを購入し、
-USB_VBUS ------- Pico_VBUS
-USB_D- -- 22Ω --- Pico_GP1
-USB_D- -- 15kΩ -- Pico_GND
-USB_D+ -- 22Ω ----Pico_GP0
-USB_D+ -- 15kΩ -- Pico_GND
-USB_GND ---------- Pico_GND
+USB_VBUS ------- Pico_VBUS  
+USB_D- -- 22Ω --- Pico_GP1  
+USB_D- -- 15kΩ -- Pico_GND  
+USB_D+ -- 22Ω ----Pico_GP0  
+USB_D+ -- 15kΩ -- Pico_GND  
+USB_GND ---------- Pico_GND  
 と結線すれば、Picossi USBホストと同様に使えます。
 
 © SQUARE ENIX
