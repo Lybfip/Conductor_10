@@ -17,7 +17,7 @@ MIDIのノートオン/ノートオフ信号を、HIDキーボードのキーダ
 USB Type-C コネクタ側を PS4 / PS5 / Switch 2 に接続し、USB AコネクタをMIDIキーボードに接続してください。
 FINAL FANTASY XIVの楽器演奏の設定で、MIDIキーボードを押して音階を登録してください。
 ## 補足
-Picossi USBホストが入手できない場合、Raspberry Pi Pico でも動作します。
+Picossi USBホストが入手できない場合、Raspberry Pi Pico でも動作します。Pico 2は使えません。  
 USB A コネクタを購入し、
 USB_VBUS ------- Pico_VBUS  
 USB_D- -- 22Ω --- Pico_GP1  
